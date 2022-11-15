@@ -1,4 +1,4 @@
-https://www.kaggle.com/datasets/kyanyoga/sample
+https://www.kaggle.com/datasets/yaseerh/uber-fares-dataset
 
 import matplotlib.pyplot as plt
 import numpy as np
