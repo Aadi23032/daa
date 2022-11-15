@@ -1,0 +1,27 @@
+#daa1
+def iterfib(n):
+    f1=0
+    f2=1
+    for i in range(n):
+        if i<2:
+            print(i,end =' ')
+        else:
+            f3=f1+f2
+            f1=f2
+            f2=f3
+            print(f3,end =' ')
+def recurfib(n):
+    if(n==0 or n==1):
+        return n
+    else:
+        
+        return(recurfib(n-1) + recurfib(n-2))
+def main():
+    n=10
+    print("iterative fibonacci")
+    iterfib(n)
+    print("\nrecurrsive fibonacci")
+    for i in range(n):
+        print(recurfib(i),end =' ')
+if __name__=='__main__':
+    main()
