@@ -66,8 +66,7 @@ def solveNQUtil(board, col):
 # cannot be placed, otherwise return true and
 # placement of queens in the form of 1s.
 # note that there may be more than one
-# solutions, this function prints one  of the
-# feasible solutions.
+# solutions, this function prints one  of t
 def solveNQ():
     board = [ [0, 0, 0, 0],
               [0, 0, 0, 0],
