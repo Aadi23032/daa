@@ -1,3 +1,4 @@
+//SPDX-LIcense-Identifier:MIT
 pragma solidity ^0.6;
 contract Student_management
 {
